@@ -15,14 +15,17 @@ const AboutMe = () => {
                     <p>
                         Hello! I am Farhan. I have been devoloping websites for over 2 years. I'm a Full-Stack
                         Web Developer. Technologies I use is MERN (MongoDB, Express, ReactJS, and NodeJS).
-
+                        <br></br>
+                        <br></br>
                         I create responsive websites that are displayed on all deveices desktops and smartphones.
-
+                        <br></br>
+                        <br></br>
                         Inquisitive, energetic computer science enthusiast skilled in leadership,
                         with a strong foundation in math, programming logic, and cross-platform coding.
                         Seeking to leverage solid development skills with a focus
                         on collaboration , communcation, passion, and creativity as a programmer.
-
+                        <br></br>
+                        <br></br>
                         More about me is that I like to lean more towards being creative, hence I like taking photos.
 
                     </p>
