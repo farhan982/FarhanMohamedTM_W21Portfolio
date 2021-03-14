@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+  --primary-white: rgb(255, 255, 255);
+  --primary-aqua: #06e2f6;
+  --primary-dark: rgba(255, 255, 255, 0);
+  
+}
+
+body {
+  font-family: "Open Sans" sans-serif;
+}
+
+/**********************NAVBAR**************************/
+
+
+.logo {
+  width: 8rem;
+}
+
+/*Menu Links*/
+nav a.nav-link {
+  letter-spacing: 0.1;
+  cursor:pointer;
+
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  color: var(--primary-white) !important;
+  border-top: 0.2rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17rem;
+  padding: 0 !important;
+  height: 8rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.2rem solid var(--primary-aqua);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.2rem solid var(--primary-aqua);
+
+}
