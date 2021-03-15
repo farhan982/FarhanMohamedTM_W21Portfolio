@@ -2,17 +2,20 @@ import React from "react";
 import { FontAwesome, FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile, faBullseye } from "@fortawesome/free-solid-svg-icons";
+import resume from "../farhan's resume.docx";
+import coverLetter from "../Farhan's Cover Letter.docx";
+import goals from "../Career Goals.docx";
 
 
 const PersonalData = () => {
     return (
-        <div className = "personal">
+        <div id = "personal" className = "personal">
             <h1 className = "py-5">Personal Data</h1>
                 <div className = "container">
                     <div className = "row">
                         <div className = "col-lg-4 col-md-6 col-sm-6">
                             <div className = "box"> 
-                            <a href = "../farhan's resume.docx"  download = "resume">
+                            <a href = { resume }  download>
                                 <div className = "circle"> <FontAwesomeIcon className = "icon" icon = {faFile} size = "2x"/> </div>
                                 <h3>Resume</h3>
                                 <p> Inquisitive, energetic Computer science enthusiast skilled in
@@ -26,7 +29,7 @@ const PersonalData = () => {
                         </div>
                         <div className = "col-lg-4 col-md-6 col-sm-6">
                             <div className = "box">
-                            <a href = "./Farhan's Cover Letter.docx" download>
+                            <a href = { coverLetter } download>
                             <div className = "circle"> <FontAwesomeIcon className = "icon" icon = {faEnvelope} size = "2x"/> </div>
 
                                 <h3>Cover Letter</h3>
@@ -41,7 +44,7 @@ const PersonalData = () => {
                         </div>
                         <div className = "col-lg-4 col-md-6 col-sm-6">
                             <div className = "box">
-                            <a href = "./Career Goals.docx" download>
+                            <a href = { goals } download>
                             <div className = "circle"> <FontAwesomeIcon className = "icon" icon = {faBullseye} size = "2x"/> </div>
 
                                 <h3>Career Goal</h3>
