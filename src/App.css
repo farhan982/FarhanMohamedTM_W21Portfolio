@@ -254,6 +254,7 @@ nav ul li {
   padding: 0.7rem;
   margin-bottom: 2rem;
   background: var(--primary-white);
+  transition: .3s ease-in-out;
 }
 
 .personal .box:hover {
@@ -284,9 +285,13 @@ nav ul li {
   padding: .7rem;
 }
 
+.experience h1 {
+  padding: .7rem;
+}
+
 .experience-wrapper {
-  position: absolute;
-  padding: 3.2rem;
+  position: relative;
+  padding: 3.2rem 0;
   overflow: hidden;
 }
 
@@ -344,4 +349,27 @@ nav ul li {
   margin-top: .3rem;
   color: var(--primary-red);
   font-weight: 900;
+}
+
+/**********************Media**************************/
+
+@media(max-width: 768px) {
+.experience .container {
+  padding-left: 0;
+}
+
+  .experience-wrapper::before {
+    left: .5rem;
+    margin-bottom: 1.9rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    float: none;
+    direction: ltr;
+    width: 100%;
+  }
+  
 }
