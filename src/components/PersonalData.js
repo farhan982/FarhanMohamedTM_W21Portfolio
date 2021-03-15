@@ -10,9 +10,9 @@ const PersonalData = () => {
             <h1 className = "py-5">Personal Data</h1>
                 <div className = "container">
                     <div className = "row">
-                        <div className = "col-md-3 col-sm-6">
+                        <div className = "col-lg-4 col-md-6 col-sm-6">
                             <div className = "box"> 
-                            <a href = "../farhan's resume.docx"  download>
+                            <a href = "../farhan's resume.docx"  download = "resume">
                                 <div className = "circle"> <FontAwesomeIcon className = "icon" icon = {faFile} size = "2x"/> </div>
                                 <h3>Resume</h3>
                                 <p> Inquisitive, energetic Computer science enthusiast skilled in
@@ -24,9 +24,9 @@ const PersonalData = () => {
                             </a>
                             </div>
                         </div>
-                        <div className = "col-md-3 col-sm-6">
+                        <div className = "col-lg-4 col-md-6 col-sm-6">
                             <div className = "box">
-                            <a href = "../Farhan's Cover Letter.docx" download>
+                            <a href = "./Farhan's Cover Letter.docx" download>
                             <div className = "circle"> <FontAwesomeIcon className = "icon" icon = {faEnvelope} size = "2x"/> </div>
 
                                 <h3>Cover Letter</h3>
@@ -39,9 +39,9 @@ const PersonalData = () => {
                             </a>
                             </div>
                         </div>
-                        <div className = "col-md-3 col-sm-6">
+                        <div className = "col-lg-4 col-md-6 col-sm-6">
                             <div className = "box">
-                            <a href = "../Career Goals.docx" download>
+                            <a href = "./Career Goals.docx" download>
                             <div className = "circle"> <FontAwesomeIcon className = "icon" icon = {faBullseye} size = "2x"/> </div>
 
                                 <h3>Career Goal</h3>
