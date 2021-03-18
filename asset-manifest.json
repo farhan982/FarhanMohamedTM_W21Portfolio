@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/FarhanMohamedTM_W21Portfolio/static/css/main.7aba0d28.chunk.css",
+    "main.js": "/FarhanMohamedTM_W21Portfolio/static/js/main.7af40b92.chunk.js",
+    "main.js.map": "/FarhanMohamedTM_W21Portfolio/static/js/main.7af40b92.chunk.js.map",
+    "runtime-main.js": "/FarhanMohamedTM_W21Portfolio/static/js/runtime-main.cf5b4044.js",
+    "runtime-main.js.map": "/FarhanMohamedTM_W21Portfolio/static/js/runtime-main.cf5b4044.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/FarhanMohamedTM_W21Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f3284230.chunk.js": "/FarhanMohamedTM_W21Portfolio/static/js/2.f3284230.chunk.js",
+    "static/js/2.f3284230.chunk.js.map": "/FarhanMohamedTM_W21Portfolio/static/js/2.f3284230.chunk.js.map",
+    "static/js/3.471dab96.chunk.js": "/FarhanMohamedTM_W21Portfolio/static/js/3.471dab96.chunk.js",
+    "static/js/3.471dab96.chunk.js.map": "/FarhanMohamedTM_W21Portfolio/static/js/3.471dab96.chunk.js.map",
+    "index.html": "/FarhanMohamedTM_W21Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/FarhanMohamedTM_W21Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.7aba0d28.chunk.css.map": "/FarhanMohamedTM_W21Portfolio/static/css/main.7aba0d28.chunk.css.map",
+    "static/js/2.f3284230.chunk.js.LICENSE.txt": "/FarhanMohamedTM_W21Portfolio/static/js/2.f3284230.chunk.js.LICENSE.txt",
+    "static/media/Career Goals.d5fb6ea5.docx": "/FarhanMohamedTM_W21Portfolio/static/media/Career Goals.d5fb6ea5.docx",
+    "static/media/Farhan's Cover Letter.d5ff043b.docx": "/FarhanMohamedTM_W21Portfolio/static/media/Farhan's Cover Letter.d5ff043b.docx",
+    "static/media/App.css": "/FarhanMohamedTM_W21Portfolio/static/media/background.100d8afd.jpg",
+    "static/media/farhan's resume.510791cf.docx": "/FarhanMohamedTM_W21Portfolio/static/media/farhan's resume.510791cf.docx",
+    "static/media/me.71cb53c5.jpg": "/FarhanMohamedTM_W21Portfolio/static/media/me.71cb53c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf5b4044.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f3284230.chunk.js",
+    "static/css/main.7aba0d28.chunk.css",
+    "static/js/main.7af40b92.chunk.js"
+  ]
+}
